@@ -1,0 +1,8 @@
+# Core dependencies
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+numpy>=1.24.0,<2.0.0
+
+# Build dependencies (vaak vergeten in venv)
+setuptools>=65.0.0
+wheel>=0.38.0

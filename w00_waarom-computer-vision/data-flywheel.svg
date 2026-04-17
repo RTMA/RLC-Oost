@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 460" width="580" height="460" role="img" aria-labelledby="title desc">
+  <title id="title">Data flywheel</title>
+  <desc id="desc">Cyclisch diagram dat laat zien hoe meer gebruikers leiden tot meer gelabelde data, een beter model, een beter product en vervolgens weer meer gebruikers.</desc>
+  <defs>
+    <style>
+      .t{font:400 13px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#444441}
+      .th{font:500 14px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#085041}
+      .ts{font:400 12px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#5F5E5A}
+      .node{fill:#E1F5EE;stroke:#0F6E56;stroke-width:1.5}
+      .arr{fill:none;stroke:#0F6E56;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+      .ring{fill:none;stroke:#B4B2A9;stroke-width:1;stroke-dasharray:4 6}
+    </style>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <path id="p01" d="M312 112 Q415 115 418 218"/>
+    <path id="p12" d="M418 262 Q415 365 312 368"/>
+    <path id="p23" d="M268 368 Q165 365 162 262"/>
+    <path id="p30" d="M162 218 Q165 115 268 112"/>
+  </defs>
+
+  <rect x="0" y="0" width="580" height="460" fill="#ffffff"/>
+  <text x="290" y="34" class="th" text-anchor="middle">Data flywheel</text>
+  <text x="290" y="54" class="ts" text-anchor="middle">Waarom veel gebruik leidt tot een sterker vision-systeem</text>
+
+  <circle cx="290" cy="240" r="165" class="ring"/>
+
+  <rect x="205" y="68" width="170" height="44" rx="12" class="node"/>
+  <text x="290" y="90" class="th" text-anchor="middle" dominant-baseline="central">Meer gebruikers</text>
+
+  <rect x="355" y="218" width="170" height="44" rx="12" class="node"/>
+  <text x="440" y="240" class="th" text-anchor="middle" dominant-baseline="central">Meer gelabelde data</text>
+
+  <rect x="205" y="368" width="170" height="44" rx="12" class="node"/>
+  <text x="290" y="390" class="th" text-anchor="middle" dominant-baseline="central">Beter model</text>
+
+  <rect x="55" y="218" width="170" height="44" rx="12" class="node"/>
+  <text x="140" y="240" class="th" text-anchor="middle" dominant-baseline="central">Beter product</text>
+
+  <path d="M312 112 Q415 115 418 218" class="arr" marker-end="url(#arrow-teal)"/>
+  <path d="M418 262 Q415 365 312 368" class="arr" marker-end="url(#arrow-teal)"/>
+  <path d="M268 368 Q165 365 162 262" class="arr" marker-end="url(#arrow-teal)"/>
+  <path d="M162 218 Q165 115 268 112" class="arr" marker-end="url(#arrow-teal)"/>
+
+  <text class="t">
+    <textPath href="#p01" startOffset="50%" text-anchor="middle" dy="-10">meer data</textPath>
+  </text>
+  <text class="t">
+    <textPath href="#p12" startOffset="50%" text-anchor="middle" dy="-10">betere training</textPath>
+  </text>
+  <text class="t">
+    <textPath href="#p23" startOffset="50%" text-anchor="middle" dy="-10">meer waarde</textPath>
+  </text>
+  <text class="t">
+    <textPath href="#p30" startOffset="50%" text-anchor="middle" dy="-10">meer adoptie</textPath>
+  </text>
+
+  <circle cx="290" cy="240" r="58" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <text x="290" y="230" class="th" text-anchor="middle" dominant-baseline="central">Kerninzicht</text>
+  <text x="290" y="250" class="t" text-anchor="middle" dominant-baseline="central">Data is de</text>
+  <text x="290" y="268" class="t" text-anchor="middle" dominant-baseline="central">bottleneck</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="700" height="520" role="img" aria-labelledby="title desc">
+  <title id="title">Google versus industrie: identiek architectuurpatroon</title>
+  <desc id="desc">Parallel schema dat laat zien dat Google reCAPTCHA en industriële kwaliteitscontrole hetzelfde patroon volgen: beeld, label, model, beslissing.</desc>
+  <defs>
+    <style>
+      .t{font:400 13px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#444441}
+      .th{font:500 14px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#444441}
+      .ts{font:400 12px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#5F5E5A}
+      .gbox{fill:#E6F1FB;stroke:#185FA5;stroke-width:1.5}
+      .ibox{fill:#E1F5EE;stroke:#0F6E56;stroke-width:1.5}
+      .mbox{fill:#F1EFE8;stroke:#5F5E5A;stroke-width:1}
+      .garr{fill:none;stroke:#185FA5;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+      .iarr{fill:none;stroke:#0F6E56;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+      .link{fill:none;stroke:#B4B2A9;stroke-width:1;stroke-dasharray:5 5}
+    </style>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#185FA5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="520" fill="#ffffff"/>
+  <text x="350" y="34" class="th" text-anchor="middle">Google en industrie volgen hetzelfde patroon</text>
+  <text x="350" y="54" class="ts" text-anchor="middle">Andere context, dezelfde keten van beeld naar beslissing</text>
+
+  <text x="185" y="86" class="th" text-anchor="middle" fill="#0C447C">Google</text>
+  <text x="515" y="86" class="th" text-anchor="middle" fill="#085041">Industrie</text>
+
+  <rect x="95" y="100" width="180" height="52" rx="12" class="gbox"/>
+  <text x="185" y="121" class="th" text-anchor="middle" dominant-baseline="central">Street View-foto</text>
+  <text x="185" y="139" class="ts" text-anchor="middle" dominant-baseline="central">beeld van de buitenwereld</text>
+
+  <rect x="95" y="210" width="180" height="52" rx="12" class="gbox"/>
+  <text x="185" y="231" class="th" text-anchor="middle" dominant-baseline="central">Label via reCAPTCHA</text>
+  <text x="185" y="249" class="ts" text-anchor="middle" dominant-baseline="central">mens klikt verkeerslicht of bord aan</text>
+
+  <rect x="95" y="320" width="180" height="52" rx="12" class="gbox"/>
+  <text x="185" y="341" class="th" text-anchor="middle" dominant-baseline="central">Model</text>
+  <text x="185" y="359" class="ts" text-anchor="middle" dominant-baseline="central">leert objecten herkennen</text>
+
+  <rect x="95" y="430" width="180" height="52" rx="12" class="gbox"/>
+  <text x="185" y="451" class="th" text-anchor="middle" dominant-baseline="central">Maps en Waymo</text>
+  <text x="185" y="469" class="ts" text-anchor="middle" dominant-baseline="central">betere navigatie en autonomie</text>
+
+  <rect x="425" y="100" width="180" height="52" rx="12" class="ibox"/>
+  <text x="515" y="121" class="th" text-anchor="middle" dominant-baseline="central">Productfoto</text>
+  <text x="515" y="139" class="ts" text-anchor="middle" dominant-baseline="central">beeld van product op de lijn</text>
+
+  <rect x="425" y="210" width="180" height="52" rx="12" class="ibox"/>
+  <text x="515" y="231" class="th" text-anchor="middle" dominant-baseline="central">Label door operator</text>
+  <text x="515" y="249" class="ts" text-anchor="middle" dominant-baseline="central">kras, scheur of goed product</text>
+
+  <rect x="425" y="320" width="180" height="52" rx="12" class="ibox"/>
+  <text x="515" y="341" class="th" text-anchor="middle" dominant-baseline="central">Model</text>
+  <text x="515" y="359" class="ts" text-anchor="middle" dominant-baseline="central">leert defecten herkennen</text>
+
+  <rect x="425" y="430" width="180" height="52" rx="12" class="ibox"/>
+  <text x="515" y="451" class="th" text-anchor="middle" dominant-baseline="central">Goed of afkeur</text>
+  <text x="515" y="469" class="ts" text-anchor="middle" dominant-baseline="central">automatische kwaliteitsbeslissing</text>
+
+  <path d="M185 152 L185 210" class="garr" marker-end="url(#arrow-blue)"/>
+  <path d="M185 262 L185 320" class="garr" marker-end="url(#arrow-blue)"/>
+  <path d="M185 372 L185 430" class="garr" marker-end="url(#arrow-blue)"/>
+
+  <path d="M515 152 L515 210" class="iarr" marker-end="url(#arrow-teal)"/>
+  <path d="M515 262 L515 320" class="iarr" marker-end="url(#arrow-teal)"/>
+  <path d="M515 372 L515 430" class="iarr" marker-end="url(#arrow-teal)"/>
+
+  <line x1="275" y1="126" x2="425" y2="126" class="link"/>
+  <line x1="275" y1="236" x2="425" y2="236" class="link"/>
+  <line x1="275" y1="346" x2="425" y2="346" class="link"/>
+  <line x1="275" y1="456" x2="425" y2="456" class="link"/>
+
+  <rect x="300" y="110" width="100" height="32" rx="10" class="mbox"/>
+  <text x="350" y="126" class="t" text-anchor="middle" dominant-baseline="central">Invoer</text>
+
+  <rect x="300" y="220" width="100" height="32" rx="10" class="mbox"/>
+  <text x="350" y="236" class="t" text-anchor="middle" dominant-baseline="central">Labeling</text>
+
+  <rect x="300" y="330" width="100" height="32" rx="10" class="mbox"/>
+  <text x="350" y="346" class="t" text-anchor="middle" dominant-baseline="central">Model</text>
+  <rect x="300" y="440" width="100" height="32" rx="10" class="mbox"/>
+  <text x="350" y="456" class="t" text-anchor="middle" dominant-baseline="central">Uitvoer</text>
+
+  <text x="350" y="500" class="ts" text-anchor="middle">Kernpatroon: beeld → label → model → beslissing</text>
+</svg>

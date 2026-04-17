@@ -1,0 +1,8 @@
+<View>
+  <Image name="image" value="$image"/>
+
+  <RectangleLabels name="label" toName="image" showInline="true">
+    <Label value="product_ok" background="#4CAF50"/>
+    <Label value="product_defect" background="#F44336"/>
+  </RectangleLabels>
+</View>
